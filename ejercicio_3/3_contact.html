@@ -5,13 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3_style.css">
     <title>Ejercicio 3 - Contacto</title>
-    <!-- CSS: vincular el archivo 3_style.css -->
+    
 
 </head>
 
 <body>
+    <div class="arriba">
+        <img src="../recursos/img/logo.png" alt="imagen del logo de la empresa" width="50">
+        <p><span>Aperture Science</span></p>
+    </div>
+    <div class="grey">
+        <pre><a href="./3_index.html">Inicio</a>   <a href="./3_contact.html">Contacto</a></pre>
+    </div>
+    <h1>Contacto</h1>
+    <h2>¿Quieres participar en nuestros experimentos</h2>
+    <p>Rellena el siguiente formulario y rellena lo siguiente</p>
+    <div class="caja">
+        <form>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre"><br><br>
 
+            <label for="mail">Email</label><br>
+            <input type="email" name="mail" id="mail"><br><br>
+
+            <label for="telf">Telefono</label><br>
+            <input type="tel" name="telf" id="telf"><br><br>
+
+            <label for="fecha">Fecha de nacimiento</label><br>
+            <input type="date" name="fecha" id="fecha"><br><br>
+
+            <p>Genero</p>
+            <input type="radio" name="generos" id="masculino">
+            <label for="masculino">Masculino</label><br>
+
+            <input type="radio" name="generos" id="fem">
+            <label for="fem">Femenino</label><br>
+
+            <input type="radio" name="generos" id="otro">
+            <label for="otro">Otros</label><br><br>
+
+            <input type="checkbox" name="renuncio" id="renuncio">
+            <label for="renuncio">Renuncio a mis derechos como ser humano</label><br><br>
+
+            <button type="submit">Enviar solicitud</button>
+
+
+        </form>
+    </div>
 </body>
 
 </html>

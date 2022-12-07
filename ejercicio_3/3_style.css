@@ -1,1 +1,37 @@
-/* Aquí va el CSS del ejercicio 3 */
+.arriba{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin-bottom: 0px;
+}
+.arriba img{
+    float:left
+}
+.arriba p{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grey{
+    background-color: gray;
+    padding: 20px;
+}
+.grey a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.caja{
+     box-shadow: 5px -5px 5px #888888;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.insta{
+    text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
+}

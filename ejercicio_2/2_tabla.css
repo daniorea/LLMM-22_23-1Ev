@@ -1,3 +1,17 @@
-/*Aquí va el CSS del fichero 2_tabla.html*/
+table, td{
+    border: 2px solid;
+}
+td{
+    text-align: center;
+}
+.amarillo{
+    background-color: yellow;
+}
+.rojo{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
 
 
